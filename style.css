@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:hsl(342.86deg 14.29% 61.57%);
+    display:flex;
+    position: relative;
+    overflow: hidden;
+}   
+#part1{
+    height:100%;
+    width:26%;
+    /* background-color:red; */
+}
+
+#part2{
+    height:100%;
+    width: 67%;
+    background-color:blue;
+    background-image: url("https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.313);
+}
+#part3{
+    height:100%;
+    width:7%;
+    /* background-color:green; */
+}
+#text-div{
+    height:300px;
+    position: absolute;
+    width: 400px;
+    
+    left :5%;
+    top :50%;
+    transform: translateY(-50%);
+}
+#text-div>h1{
+    font-size: 80px;
+    font-family: monument,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height:1;
+    color: white;
+    letter-spacing: 5px;
+}
+#small{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    background-image: url("https://images.unsplash.com/photo-1753396051962-2d52007d598f?q=80&w=701&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    
+    
+    background-size: cover; 
+    background-position: center;
+}
+#overlay1{
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.313);
+}
+#vertical-text{
+    position: absolute;
+    top: 50%;
+    right: -8%;
+    transform:translateY(-50%) rotate(90deg);
+    
+    
+    
+}
+#vertical-text>h1{
+    font-size: 70px;
+    font-family: monument,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1;
+    color:transparent;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    
+    
+
+}
+#nav{
+    position:absolute;
+    width: 400px;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left:7%;
+    top : 5%;
+
+
+
+
+}
+#nav img{
+    height:45px ;
+
+}
+#nav h5{
+    font-size: 30px;
+    font-family: gilroy;
+    color: white;
+
+}
